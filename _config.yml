@@ -1,13 +1,11 @@
 # url:                   https://username.github.io
 
 lang:                  en
-title:                 Starter Kit
+title:                 Alexander LeBouthillier
 description:           >
-  Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
-
-tagline:               Change `tagline` in `_config.yml`
-keywords:              []
+                A personal website for blogging and hosting my cv
+tagline:               Nerd blogging and geekposting
+keywords:              [blog, cv, tech, code, machine learning, research]
 author:
   # Used by `jekyll-feed`:
   name:                <Alexander> <LeBouthillier>
@@ -19,6 +17,8 @@ menu:
     url:               /example/
   - title:             About Me
     url:               /about/
+  - title:             Projects
+    url:               /projects/
 # And the footer
 legal:
   - title:             LICENSE
