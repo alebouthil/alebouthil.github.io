@@ -81,7 +81,7 @@ defaults:
 
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
   # but we want them to be `WebPage`s:
-      ## TODO: modify for your chosen content
+  # TODO: modify for your chosen content
   - scope:
       type:            projects
     values:
