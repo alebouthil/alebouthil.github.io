@@ -30,7 +30,7 @@ whatsapp:
 spotify:
   name: Spotify
   icon: icon-spotify
-  prepend: "https://play.spotify.com/"
+  prepend: "https://play.spotify.com/user/"
 telegram:
   name: Telegram
   icon: icon-telegram
