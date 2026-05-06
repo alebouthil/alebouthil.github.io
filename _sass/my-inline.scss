@@ -1,12 +1,14 @@
 // Decorative ring around the sidebar title/nav/social, drawn in CSS so it
-// tracks the content at any viewport size (the previous version was baked
-// into header.png and got cropped out of position on mobile).
-#_sidebar .sidebar-sticky {
+// tracks the content at any viewport size. Placed on #_sidebar (not
+// .sidebar-sticky) because the sticky has `contain: content` which clips
+// any paint outside its 21rem max-width. The ring still gets clipped at
+// the sidebar boundary by hy-drawer's overflow:hidden, so it never
+// infringes on the body content.
+#_sidebar {
   position: relative;
-  overflow: visible;
 }
 
-#_sidebar .sidebar-sticky::before {
+#_sidebar::before {
   content: '';
   position: absolute;
   top: 50%;
@@ -19,12 +21,10 @@
   border: 0.55rem solid #b15cdc;
   border-radius: 50%;
   pointer-events: none;
-  z-index: 0;
+  z-index: 2;
 }
 
-#_sidebar .sidebar-about,
-#_sidebar .sidebar-nav,
-#_sidebar .sidebar-social {
+#_sidebar .sidebar-sticky {
   position: relative;
-  z-index: 1;
+  z-index: 3;
 }
