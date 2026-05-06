@@ -11,9 +11,10 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: min(85%, 16rem);
+  width: min(85%, 22rem);
   aspect-ratio: 1;
-  border: 0.5rem solid #b15cdc;
+  background-color: #1f1f28;
+  border: 0.55rem solid #b15cdc;
   border-radius: 50%;
   pointer-events: none;
   z-index: 0;
