@@ -2,17 +2,13 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 Alex:
-  name:              <Alexander> <LeBouthillier>
-  email:             <leboutalex@gmail.com>
+  name:              Alexander LeBouthillier
+  email:             leboutalex@gmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    
-    Open `_data/authors.yml` to edit this text.
+    Hi, my name is Alexander, and you're reading my blog! I post about a lot of stuff here, and hope to do even more in the future. Professionally I have an interest in Cybersecurity, Machine Learning and AI (agents and algorithms more so than llms). In my spare time I am a passionate baseball fan, part time/fun time bartender and a big thinker about little things. I am always finding ways to apply what I've learned to what I love.
   #TODO:choose and add a picture for this section
   # Photo for about section
 #  picture:
