@@ -20,12 +20,7 @@ menu:
   - title:             Projects
     url:               /projects/
 # And the footer
-legal:
-  - title:             LICENSE
-    url:               /LICENSE/
-  - title:             NOTICE
-    url:               /NOTICE/
-copyright:             © 2025. All rights reserved.
+copyright:             © 2026. All rights reserved.
 
 permalink:             /:categories/:year-:month-:day-:title/
 
