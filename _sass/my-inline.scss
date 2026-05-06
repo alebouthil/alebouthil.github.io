@@ -3,6 +3,7 @@
 // into header.png and got cropped out of position on mobile).
 #_sidebar .sidebar-sticky {
   position: relative;
+  overflow: visible;
 }
 
 #_sidebar .sidebar-sticky::before {
