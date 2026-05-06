@@ -11,7 +11,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: min(85%, 22rem);
+  width: 22rem;
+  max-width: 95vw;
   aspect-ratio: 1;
   background-color: #1f1f28;
   border: 0.55rem solid #b15cdc;
